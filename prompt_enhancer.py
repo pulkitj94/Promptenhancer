@@ -9,7 +9,7 @@ context = st.text_input("Context", value="Enter a detailed context for the task"
 constraint = st.text_area("Constraint", value="Enter the constraint(s) to keep in mind")
 structure = st.text_area("Structure", value="Enter the structure of the desired output")
 checkpoint = st.text_area("Checkpoint", value="Define any checkpoint or validations to be considered while processing the output")
-review = st.text_area("Review", value="Enter the review or aprroval process for the output")
+review = st.text_area("Review", value="Enter the review or approval process for the output")
 
 st.subheader("Paste your rough prompt")
 
@@ -43,6 +43,7 @@ if st.button("Enhance Prompt"):
         st.code(instruction + "\n" + demo_output, language="markdown")
         
         st.info("💡 This is demo mode showing the CC-SC-R structure. In live mode, AI would generate the actual enhanced prompt!")
+
 
 
 

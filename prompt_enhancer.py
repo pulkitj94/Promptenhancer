@@ -13,7 +13,7 @@ review = st.text_area("Review", value="Enter the review or approval process for 
 
 st.subheader("Paste your rough prompt")
 
-draft = st.text_area("Your draft prompt:", height=140)
+draft = st.text_area("Your draft prompt:", height=300)
 
 if st.button("Enhance Prompt"):
     if not draft.strip():

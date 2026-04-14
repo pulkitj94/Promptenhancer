@@ -1,32 +1,3 @@
-# --- Python ---
+.env
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
-*.egg-info/
-.eggs/
-
-# --- Virtual Environments (if created locally) ---
-venv/
-env/
-.venv/
-ENV/
-
-# --- Streamlit (local credentials and caches) ---
-.streamlit/credentials.toml
-.streamlit/*.json
-
-# --- IDE / Editor ---
-.vscode/
-.idea/
-*.swo
-*.swp
-
-# --- OS files ---
-.DS_Store
-Thumbs.db
-
-# --- Caches / Logs ---
-.cache/
-.pytest_cache/
-*.log

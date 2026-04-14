@@ -1,8 +1,8 @@
 import streamlit as st
 from openai import OpenAI
 
-st.set_page_config(page_title="Prompt Enhancer", page_icon="📝")
-st.title("📝 Prompt Engineer — General Prompt Enhancer")
+st.set_page_config(page_title="Prompt Enhancer", page_icon="")
+st.title("Prompt Engineer — PJ's Prompt Enhancer")
 st.caption("Powered by OpenAI gpt-4o-mini")
 
 # --- Sidebar: API Key ---
